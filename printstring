@@ -1,3 +1,0 @@
-#this is to print string
-s=input()
-print(s)
