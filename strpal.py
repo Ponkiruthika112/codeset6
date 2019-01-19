@@ -4,6 +4,6 @@ k=""
 for i in range(len(s)-1,-1,-1):
 	k=k+s[i]
 if k==s:
-	print("palindrome")
+	print("yes")
 else:
-	print("not palindrome")
+	print("no")
