@@ -1,4 +1,4 @@
-#this pgm is to find vowels in a string
+#this pgm is to find vowels in a string OR NOT
 s=input()
 c=0
 for i in s:
