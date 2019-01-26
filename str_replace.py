@@ -1,8 +1,10 @@
-#this is to replace the string
+#this is to print *
 s=input()
+p=list(s)
 k=len(s)//2
 y=""
-y=y+s.replace(s[k],"*")
+p[k]="*"
 if len(s)%2==0:
-	y=y.replace(s[k-1],"*")
-print(y)
+	p[k-1]="*"
+h=y.join(p)
+print(h)
