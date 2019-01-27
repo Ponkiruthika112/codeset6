@@ -1,4 +1,5 @@
 #this is to find the position of inorder nos 
+n=int(input())
 l=list(map(int,input().split()))
 k=[]
 for i in range(0,len(l)):
