@@ -11,11 +11,11 @@ for i in a:
 for i in b:
 	if i!="1":
 		b=b.replace(i,"0")
-print(a,b)
 if abs(a.count("1")-b.count("1"))==1:
 	print("yes")
 else:
 	print("no")
 #did\f
+#j.fg
 		
 
