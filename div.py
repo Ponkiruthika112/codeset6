@@ -1,2 +1,8 @@
 l,r=map(int,input().split())
-print(l*r)
+if r>l:
+	l,r=r,l
+if l%r==0:
+	print(l)
+else:
+	print(l*r)
+#for smallest div value
