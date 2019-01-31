@@ -1,3 +1,4 @@
+n=int(input())
 s=input()
 l=list(s)
 i=0
