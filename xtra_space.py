@@ -1,10 +1,10 @@
-# your code goes here
+# your code goes her
 s=input()
-k=" "
-for i in range(0,len(s)):
+k=s
+i=0
+while i<len(s):
 	if s[i]==" "and s[i+1]==" ":
-		k=s.replace(" ","")
-	else:
-		k=s
+		k=k.replace(" ","")
+	i=i+1
 print(k)
-#remove extra spaces
+#remove white spaces
