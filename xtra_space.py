@@ -1,4 +1,5 @@
 # your code goes her
+# your code goes here
 s=input()
 k=s
 i=0
@@ -7,4 +8,4 @@ while i<len(s):
 		k=k.replace(" ","")
 	i=i+1
 print(k)
-#remove white spaces
+#hnm,f./b
