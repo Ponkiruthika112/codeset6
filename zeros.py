@@ -1,4 +1,5 @@
 # your code goes here
+n=int(input())
 l=list(map(int,input().split()))
 k=l.count(0)
 i=0
