@@ -1,6 +1,5 @@
 n=int(input())
 l=list(map(int,input().split()))
-print(l)
 c=0
 s=""
 for j in range(0,len(l)):
