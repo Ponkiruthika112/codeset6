@@ -8,6 +8,9 @@ for i in range(0,len(l)):
         c=c+1
     else:
         c=c+0
-print(c+c//2+1)
-    
-#permutation
+
+if c==2:
+    print(c+c//2)
+else:
+    print(c+c//2+1)
+#jl
