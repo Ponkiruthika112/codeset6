@@ -4,6 +4,6 @@ for i in range(1,n):
     if n%i==0 and i%2!=0:
         s=s+str(i)+" "
 if i==n-1 and n%2!=0:
-    s=s+str(i)+" "
+    s=s+str(n)+" "
 print(s.strip())
 #odd factors
