@@ -7,7 +7,7 @@ for i in range(0,x):
         if a*i+b*j==n and (i+j)%2==0:
             c=c+1
 if c==0:
-    print("no")
+    print("NO")
 else:
-    print("yes")
+    print("YES")
 #partition
